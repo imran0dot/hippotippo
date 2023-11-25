@@ -12,6 +12,7 @@ const Navbar = () => {
                     <div className='border-b border-gray-200'>
                         <div className='flex h-16 items-center'>
                             {/* TODO: Mobile Nav */}
+                            <NavItems />
 
                             <div className='ml-4 flex lg:ml-0'>
                                 <Link href='/'>
